@@ -6,7 +6,7 @@
 }
 
 body {
-  color: rgb(10, 139, 222);
+  color: #129CF3;
   overflow-x: hidden;
   overflow-y: scroll;
   height: 10000px;
@@ -41,6 +41,12 @@ header {
   font-size: 22px;
 }
 
+/*____Navigation______ */
+
+.navbar-he {
+  background-color: rgba(31,31,31,0.75) !important;
+  border-bottom: 1px solid #6b6b6b;
+}
 .nav-form {
   margin-left: 200px;
 }
@@ -49,9 +55,15 @@ header {
   width: 510px !important;
 }
 .button-form {
-  padding: 5px 24px;
+  padding: 6px 24px;
   background-color: transparent ;
   color: #fff;
   cursor: pointer;
   border : 1px solid #129CF3;
+  border-radius : 4px;
+}
+
+.button-form:hover {
+  background-color: #129CF3;
+  transition: all 1s ;
 }
