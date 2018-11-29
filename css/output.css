@@ -50,6 +50,9 @@ header {
   background-color: rgba(31,31,31,0.75) !important;
   border-bottom: 1px solid #6b6b6b;
 }
+.navbar-brand {
+  color : #129CF3!important;
+}
 .nav-form {
   margin-left: 200px;
 }
