@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
+/* ______General Css________ */
 * {
   padding: 0;
   margin: 0;
@@ -9,9 +10,10 @@ body {
   color: #129CF3;
   overflow-x: hidden;
   overflow-y: scroll;
-  height: 10000px;
   font-family: 'Raleway', sans-serif;
 }
+
+/*__________Header_Section____________ */
 
 header {
   background-image: url("../img/health-tech.jpeg");
@@ -44,6 +46,7 @@ header {
 /*____Navigation______ */
 
 .navbar-he {
+  padding-top: 10px;
   background-color: rgba(31,31,31,0.75) !important;
   border-bottom: 1px solid #6b6b6b;
 }
