@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: rgb(10, 139, 222);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 10000px;
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  background-image: url("../img/health-tech.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.overlay {
+  background-color: #000001a6;
+  height: 100vh;
+}
+
+.header-captions {
+  margin-top: 12rem;
+}
+
+.header-captions h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.header-captions p {
+  color: #fff;
+  font-size: 22px;
+}
+
+.nav-form {
+  margin-left: 200px;
+}
+
+.search-input {
+  width: 510px !important;
+}
+.button-form {
+  padding: 5px 24px;
+  background-color: transparent ;
+  color: #fff;
+  cursor: pointer;
+  border : 1px solid #129CF3;
+}
