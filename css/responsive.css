@@ -1,0 +1,19 @@
+@media screen and (max-width : 768px) {
+
+  /* Header_Responsive */
+  .header-captions  {
+    text-align: center;
+  }
+  .header-captions h1 {
+    font-size: 3rem;
+  }
+  .nav-form {
+    margin-left: 10px;
+    margin-top: 10px;
+    width : 100%;
+  }
+  .search-input {
+    width : 61%!important;
+    margin-right: 8px;
+  }
+}
